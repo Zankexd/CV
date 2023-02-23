@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+#main {
+    background-color: blanchedalmond;
+}
+#footer{
+
+}
+#aside{
+    margin-top: 60px;
+    
+
+
+
+}
+/* Тут я сделал шапку , правда почему-то она получилась немного криво но в целом хорошо!*/
+#header{
+    position:fixed;
+    background:#494949;
+    color:#FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    border-style: ridge;
+    text-align: center;
+    height: 60px;
+    font-size: large;
+    width: 100%;
+    
+    
+
+}
+/* тут я сделал те 4 кнопки вместе с тем что они меняют цвет когда на них наводишь мышку , в целом тоже не плохо но нужно будет их как-то отставить по центру!*/
+.for_header{
+    color:#000;
+    font-size: medium;
+    background-color: #7C7A7A;
+    width:15% ;
+    float:left;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 4%;
+    margin-right: 4%;
+    position: relative;
+    margin-top: 15px;
+    border-radius: 15% ;
+    align-items: center;
+}
+.for_header:hover ,.for_aside:hover{
+        color:#7C7A7A;
+        background-color: #0000;
+        cursor: pointer;
+}
+/* я закончил на том что нужно разобраться как сделать боковую часть !*/
+
+.for_aside{
+    color:#000;
+    background-color: #7C7A7A;
+    margin-top: 10px;
+    margin-left: 3px ;
+    width: 100px;
+}
+
